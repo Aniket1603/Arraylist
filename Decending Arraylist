@@ -1,0 +1,20 @@
+package arraylist;
+import java.util.*;
+public class DecendingArraylist { 
+    public static void main(String[] args) {
+        ArrayList<Integer> a = new ArrayList<Integer>();
+        a.add(10);
+        a.add(20);
+        a.add(300);
+        a.add(40);
+        a.add(50);
+        a.add(600);
+        a.add(70);
+        System.out.println("Total element is " + a);
+        
+          
+        Collections.sort(a,Collections.reverseOrder());
+            System.out.println(a);
+    }
+    
+}
